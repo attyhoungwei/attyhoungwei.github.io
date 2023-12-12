@@ -1,0 +1,140 @@
+@media (max-width: 1260px) {
+  .service_section .service_container .box {
+    -ms-flex-preferred-size: 23%;
+    flex-basis: 23%;
+  }
+}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+  .hero_area {
+    height: auto;
+  }
+
+  .slider_section {
+    padding: 75px 0;
+  }
+
+
+
+  .service_section .service_container .box {
+
+    -ms-flex-preferred-size: calc(48% - 20px);
+    flex-basis: calc(48% - 20px);
+    margin: 25px 10px 0 10px;
+
+  }
+
+  .slider_section .img-box img {
+    width: 85%;
+  }
+
+  .header_section {
+    background: none;
+    background-color: #18191e;
+
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+  }
+
+  .contact_section .contact_form-container input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .slider_section {
+    background: linear-gradient(to bottom, #f7f7fb 50%, #18191e 50%);
+  }
+
+  .slider_section .detail_box {
+    align-items: center;
+    text-align: center;
+  }
+
+  .slider_section .detail_box h1 {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .slider_section .img-box {
+
+    margin-bottom: 45px;
+
+  }
+
+  .about_section .img-box {
+    margin: 0;
+    margin-top: 55px;
+  }
+
+  .about_section .detail-box {
+    margin-right: 0;
+  }
+
+  .contact_section .img-box {
+    margin-top: 45px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .service_section .service_container .box {
+    -ms-flex-preferred-size: 98%;
+    flex-basis: 98%;
+    margin: 25px 0 0 0;
+  }
+
+  .help_section .container {
+    padding: 0;
+  }
+
+  .help_section .help_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .info_section .info_form form .email_box {
+    width: 100%;
+  }
+
+  .info_section .info_form form input {
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .img-box img {
+    width: 95%;
+  }
+}
+
+@media (max-width: 420px) {
+  .slider_section {
+
+    background: linear-gradient(to bottom,
+
+        #f7f7fb 45%,
+
+        #18191e 45%);
+
+  }
+}
+
+@media (max-width: 376px) {
+  .slider_section .detail_box h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
