@@ -20556,7 +20556,7 @@ Service-style2.scss
 */
 .tm-sc-icon-box.cp-iconbox {
   background-color: #fff;
-  border: 2px solid #f3f0f0;
+  border: 2px solid #dedcdc;
   padding: 4.375rem 2.5rem 2.1875rem 2.5rem; }
   .tm-sc-icon-box.cp-iconbox .icon {
     position: relative; }
